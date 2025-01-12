@@ -88,7 +88,7 @@ background-color:#fff;
 	display: none;
     top:6%;
     position: relative;
-		width: 100px;
+		width: 150px;
 }
 
 .sub-menu ul{
@@ -113,7 +113,7 @@ background-color:#fff;
 }
 .main ul li:hover .sub-menu ul li
 {
-	width: 75px;
+	width: 270px;
 	padding: 5px;
 	border-bottom: 1px#fff;
 	background: transparent;
@@ -126,6 +126,9 @@ background-color:#fff;
 .sub-menu ul{
   padding-top: 15px;
 }
+
+
+
 
 .main ul li:hover .sub-menu ul li:last-child 
 {
