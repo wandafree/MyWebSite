@@ -4,7 +4,7 @@
 	font-family: Century Gothic;
 }
 header{
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://wandafree.github.io/MyWebSite/aa.jpg);
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../aa.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
@@ -88,6 +88,7 @@ background-color:#fff;
 	display: none;
     top:6%;
     position: relative;
+		width: 100px;
 }
 
 .sub-menu ul{
@@ -120,6 +121,10 @@ background-color:#fff;
 	text-align: left;
 	border-radius: 0;
 	
+}
+
+.sub-menu ul{
+  padding-top: 15px;
 }
 
 .main ul li:hover .sub-menu ul li:last-child 
