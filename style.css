@@ -11,7 +11,7 @@ header{
 	min-height: 100px;
 }
 ul{
-	float:right;
+	float: right;
 	list-style-type: none;
 	margin-top: 30px;
 	margin-right:60px ;
@@ -36,31 +36,56 @@ ul li a:hover{
 ul li.active a{
 background-color:#fff;
 	color: #000;
-
-}
-
-.logo img{
-	float: left;
-	width: 150px;
-	height: auto;
 }
 
 .main{
 	max-width: 1200px;
 	margin: auto;
 }
-
+.head{
+	display: block;
+	height: 100px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.logo{
+	float: left;
+	width: 15%;
+	height: 100px;
+	margin-top: 2px;
+	margin-bottom: 0;
+	margin-left: 2px;
+}
+.menu{
+	display: block;
+	float: right;
+	width: 80%;
+	height: 100px;
+	margin-top: 2px;
+	margin-bottom: 0;
+	margin-left: 1px;
+}
+.body{ 
+	display: block;
+	height: 470px;
+	margin-top: 5px;
+	margin-bottom: 0;
+	margin-left: 1px;
+}
 .title{
 	position: absolute;
 	top: 40%;
 	left: 50%;
+	height: 80px;
+	margin-top: 2px;
+	width: 79%;
 	transform: translate(-50%,-50%);
 }
 
 .title h1{
 	color: #fff;
-	/*font-size: 85px;*/
-	font-size: 55px;
+	font-size: 50px;
+	text-align: center;
 }
 
 .button{
@@ -86,14 +111,13 @@ background-color:#fff;
 
 .sub-menu{
 	display: none;
-    top:6%;
+    top:3%;
     position: relative;
 		width: 150px;
 }
 
 .sub-menu ul{
 	position: absolute;
-
 }
 
 .main ul li:hover .sub-menu
@@ -122,15 +146,28 @@ background-color:#fff;
 	border-radius: 0;
 	
 }
-
 .sub-menu ul{
   padding-top: 15px;
 }
-
-
-
-
 .main ul li:hover .sub-menu ul li:last-child 
 {
 	border-bottom: none;
+}
+
+.footer{
+	position: absolute;
+	top: 92%;
+	left: 50%;
+	height: 60px;
+	margin-top: 2px;
+	width: 79%;
+	transform: translate(-50%,-50%);
+	/*background: #fff;*/
+}
+
+.footer h6{
+	color: gray;
+	font-size: 15px;
+	text-align: center;
+	padding-top: 35px;
 }
